@@ -1,0 +1,42 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+body{
+  background-color: rgb(238, 249, 250);
+  margin: 0 0 100px;
+}
+.head-foot{
+  background-color: navy;
+  border: black;
+  border-style: solid;
+}
+header{
+  text-align: center;
+  color: white;
+  font-size: 20pt;
+}
+main{
+  padding: 1.5em;
+  display: flex;
+}
+article{
+  padding: 0 20em;
+}
+aside{
+  padding-right: 1.5em;
+  width: 20%;
+  margin: 2em;
+}
+.title{
+  text-align: center;
+  font-size: xx-large;
+  border-top: #aaaaea solid 1em;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+}
